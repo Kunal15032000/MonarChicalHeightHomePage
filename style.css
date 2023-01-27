@@ -1,0 +1,50 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .height{
+    height:75vh;
+}
+
+.left{
+margin-left:330px;
+}
+
+ul li a{
+
+
+color: black;
+display: block;
+padding: 0 10px;
+font-family: "Times New Roman", Times, serif;
+line-height: 30px;
+font-size: 20px;
+transition: 0.5s;
+border:none;
+}
+
+.text {
+margin-left: -110px;
+width: 800px;
+z-index:1;
+color: white;
+font-size: 5em;
+text-align: left;
+font-weight: bold;
+}
